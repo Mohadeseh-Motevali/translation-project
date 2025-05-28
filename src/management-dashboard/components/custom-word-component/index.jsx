@@ -15,7 +15,7 @@ const CustomWordComponent = ({ item, setItem, setType, setOpen }) => {
       <PencilSquareIcon onClick={() => handleClick("edit")} />
       <TrashIcon onClick={() => handleClick("delete")} />
       <span className={styles.text_translation}>
-        {item.translations[language] ?? "...."}
+        {item.translations[language] ?item.translations[language]: "...."}
       </span>
     </div>
   );
