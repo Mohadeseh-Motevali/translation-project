@@ -7,9 +7,20 @@
     padding: 7vw;
     border-radius: 15px;
     text-align: center;
+    animation: show 1.5s linear ;
 
 }
-
+@keyframes show {
+    
+    from{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 0.5;
+    }
+  }
 @media (width<=570px) {
     .box {
         margin: 30px;
@@ -17,6 +28,7 @@
         padding: 3vw;
     }
 }
+
 
 button {
     all: unset;
