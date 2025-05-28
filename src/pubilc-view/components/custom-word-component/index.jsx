@@ -6,7 +6,11 @@ const CustomWordComponent = ({ item }) => {
   return (
     <div className={style.box}>
       <span className={style.text}>{item.word}</span>
-      <span>{item.translations[language] ?? "No translation yet"}</span>
+      <span>
+        {item.translations[language]
+          ? item.translations[language]
+          : "No translation yet"}
+      </span>
     </div>
   );
 };
