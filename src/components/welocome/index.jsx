@@ -4,6 +4,7 @@ const WelcomeComponent = () => {
   const navigate = useNavigate();
   return (
     <div className={style.box}>
+      <img src="/public/logo.png" />
       <h2>Welcome To Translator App </h2>
       <h3>Select Your App(ManagementDashboard -PublicView)</h3>
       <button onClick={() => navigate("/dashboard")}>
