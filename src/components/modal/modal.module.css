@@ -1,0 +1,31 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal > div {
+  max-width: 500px;
+  width: 90%;
+  max-height: 250px;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 12px;
+  opacity: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.modal .button-svg {
+  all: unset;
+  color: black;
+  font-size: 20px;
+  gap: 5px;
+}
+.modal svg {
+  color: black;
+  width: 24px;
+  height: 24px;
+}

@@ -1,0 +1,31 @@
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px ;
+    flex-wrap: wrap;
+}
+
+.box>div {
+    display: flex;
+    gap: 7px;
+    align-items: end
+}
+.button {
+    all: unset;
+    background-color: rgb(66, 66, 222);
+    color: white;
+    padding: 9px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .button:disabled{
+    cursor: not-allowed;
+   background-color: rgb(171, 171, 171);
+  }

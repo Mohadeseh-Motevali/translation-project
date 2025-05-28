@@ -1,0 +1,33 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 7vw;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+@media (width<=570px) {
+    .box {
+        margin: 30px;
+        height: 70%;
+        padding: 3vw;
+    }
+}
+
+button {
+    all: unset;
+    background-color: rgb(66, 66, 222);
+    color: white;
+    padding: 9px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    align-items: center;
+}

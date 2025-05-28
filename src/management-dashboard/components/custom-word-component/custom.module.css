@@ -1,0 +1,35 @@
+.box {
+    margin-top: 10px;
+    padding-block: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #EDEDED;
+    width: 90%;
+    margin-inline: auto;
+}
+.box svg {
+    width: 19px;
+    height:19px;
+}
+svg:nth-child(2){
+    color:rgb(66, 66, 222) ;
+    cursor: pointer;
+}
+svg:nth-child(3){
+    color:red ;
+    cursor: pointer;   
+}
+.text {
+    font-weight: 500;
+    color: black;
+    font-size: 1.1rem;
+}
+.text_translation{
+    border-radius: 6px;
+    padding:7px 10px;
+    background-color: #F7F7F7;
+    color: #7a7a7a;
+    width: 140px;
+    text-align: center;
+}
